@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  background-color: #EAF6F6;
+}
+
+hr {
+  border: dotted lightgrey 1.5rem;
+  border-bottom: none;
+  width: 15%;
+  margin: 120px auto;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0;
+  font-size: 5.65rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #21499E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 30px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  position: relative;
+  padding: 100px 0 40px;
+}
+
+.middle-container {
+  position: relative;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 15px;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.contact-me {
+  margin: -20px 0 0 20px;
+}
+.contact-message {
+  width: 35%;
+  margin: 40px auto 40px;
+}
+
+.footer-link {
+  padding: 40px 0 40px;
+}
+
+.profile {
+  padding: 15px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 60px auto 100px auto;
+  text-align: left;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 270px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 240px;
+}
+
+.user-img {
+  height: 15%;
+  width: 15%;
+}
+
+.computer-img {
+  float: left;
+  margin-right: 30px;
+  height: 25%;
+  width: 25%;
+}
+
+.chilli-img {
+  float: right;
+  margin-left: 30px;
+  height: 25%;
+  width: 25%;
+}
+
+.btn {
+  background: #3d85c6;
+  background: linear-gradient(#35C6C8, #073763);
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3d85c6;
+  background: linear-gradient(#1D4763, #35C6C8);
+  text-decoration: none;
+}
+
+.copyright-name {
+  color: white;
+  font-size: 0.8rem;
+  margin: 20px 0;
+}
